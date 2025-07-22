@@ -46,6 +46,7 @@ Abra no navegador:
 🔗 https://localhost:5001/swagger — Documentação interativa com Swagger.
 
 📁 Estrutura do Projeto
+```bash
 TaskManager/
 ├── Controllers/
 │   └── TasksController.cs       # Define as rotas e lógica da API
@@ -58,7 +59,7 @@ TaskManager/
 ├── Program.cs                   # Entrada principal do app
 ├── TaskManager.csproj           # Arquivo de projeto .NET
 ├── TaskManager.http             # Arquivo de teste de requisições
-
+```
 🧠 Explicação das pastas
 Controllers/ – Onde ficam os controladores da API (as rotas).
 Models/ – Define os modelos de dados (como é uma "tarefa").

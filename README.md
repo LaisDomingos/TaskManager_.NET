@@ -55,12 +55,13 @@ TaskManager/
 ├── Properties/
 │   └── launchSettings.json      # Configurações de ambiente
 ├── appsettings.json             # Configurações gerais
-├── appsettings.Development.json# Configs para ambiente Dev
+├── appsettings.Development.json # Configs para ambiente Dev
 ├── Program.cs                   # Entrada principal do app
 ├── TaskManager.csproj           # Arquivo de projeto .NET
 ├── TaskManager.http             # Arquivo de teste de requisições
 ```
 🧠 Explicação das pastas
+```bash
 Controllers/ – Onde ficam os controladores da API (as rotas).
 Models/ – Define os modelos de dados (como é uma "tarefa").
 Program.cs – Inicializa e configura a aplicação.
@@ -68,7 +69,7 @@ Properties/ – Configurações do projeto.
 appsettings.json – Semelhante a .env, armazena configs.
 TaskManager.http – Permite testar as rotas direto no VS Code.
 bin/ e obj/ – Pastas geradas automaticamente na build (podem ser ignoradas ou colocadas no .gitignore).
-
+```
 
 ✨ Observações
 Este projeto foi criado como exercício para aprender ASP.NET Core. Apesar de simples, cobre conceitos importantes como controllers, rotas REST, injeção de dependência (via builder.Services), estrutura MVC simplificada e uso do Swagger.
